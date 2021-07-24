@@ -21,19 +21,19 @@ public class LispExpressionEvaluatorUI extends javax.swing.JFrame {
 		jButton2 = new javax.swing.JButton();
 		jLabel2 = new javax.swing.JLabel();
 		jTextField2 = new javax.swing.JTextField();
-        jButton3 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        	jButton3 = new javax.swing.JButton();
+        	jButton1 = new javax.swing.JButton();
         
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        
-        jLabel1.setText("Enter Expression: ");
+		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton2.setText("Solve");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
+		jLabel1.setText("Enter Expression: ");
+
+		jButton2.setText("Solve");
+		jButton2.addActionListener(new java.awt.event.ActionListener() {
+		    public void actionPerformed(java.awt.event.ActionEvent evt) {
+			jButton2ActionPerformed(evt);
+		    }
+		});
         
         jLabel2.setText("Result:");
 
